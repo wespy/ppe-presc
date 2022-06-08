@@ -38,7 +38,7 @@ if (!empty($_POST)) {
 <?=template_header('Création mailing list')?>
 
 <div class="content update">
-	<h2>Ajout d'un prescripteur</h2>
+	<h2>Ajout d'une mailing list via tri</h2>
     <?php if ($msg): ?>
     <p><?=$msg?>
     <br><br>

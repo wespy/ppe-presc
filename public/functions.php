@@ -1,10 +1,14 @@
 <!--
 Développé par Louis-Aymerick DREVON
 Durant un stage de 2 mois 14/02/2022 - 08/04/2022 
+
+MODIF ORAL
 -->
 
 
 <?php
+
+// Database connection
 function pdo_connect_mysql() {
     $DATABASE_HOST = '127.0.0.1';
     $DATABASE_USER = 'admindb_marine';
@@ -59,11 +63,7 @@ echo <<<EOT
             <a href="index.php"><i class="fas fa-home"></i>Accueil</a>
     		<a href="read.php"><i class="fas fa-address-book"></i>Prescripteurs</a>
 			<a href="readlist.php"><i class="fas fa-mail-bulk"></i>Mailing lists</a>
-			<a href="readtemplate.php"><i class="fas fa-envelope-open-text"></i>Modèles d'e-mails</a>
-			<a href="template.php"><i class="fas fa-envelope-open-text"></i>Templates d'e-mails</a>
-			<a href="test.php"><i class="fas fa-file-upload"></i>Import de fichier Excel</a>
-			<a href="read_stat.php"><i class="fas fa-digital-tachograph"></i>Statistiques candidats</a>
-			
+			<a href="readtemplate.php"><i class="fas fa-envelope-open-text"></i>Modèles d'e-mails</a>	
     	</div>
     </nav>
 EOT;

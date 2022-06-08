@@ -40,7 +40,7 @@ if (!empty($_POST)) {
 <?=template_header('Création mailing list')?>
 
 <div class="content update">
-	<h2>Ajout d'un prescripteur</h2>
+	<h2>Ajout d'une mailing list</h2>
     <form action="createlist.php" method="post">
 
         <label for="Nom">Libellé de la mailing list</label>

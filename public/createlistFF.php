@@ -19,7 +19,7 @@ $stringMails = $rest = substr($stringMailsKC, 0, -1);
 <!-- Partie Formulaire de la création de mailing list par le tri de prescripteurs depuis read.php -->
 
 <div class="content update">
-	<h2>Ajout d'un prescripteur</h2>
+	<h2>Ajout d'une mailing list via tri</h2>
     <form action="createlistFFconfirm.php" method="post">
 
         <label for="Nom">Libellé de la mailing list</label>
