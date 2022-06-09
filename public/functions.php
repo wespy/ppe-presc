@@ -11,8 +11,8 @@ MODIF ORAL
 // Database connection
 function pdo_connect_mysql() {
     $DATABASE_HOST = '127.0.0.1';
-    $DATABASE_USER = 'admindb_marine';
-    $DATABASE_PASS = 'admindb';
+    $DATABASE_USER = 'root';
+    $DATABASE_PASS = 'rootpwd123';
     $DATABASE_NAME = 'MARINE_NATIONALE';
     try {
     	return new PDO('mysql:host=' . $DATABASE_HOST . ';dbname=' . $DATABASE_NAME . ';charset=utf8', $DATABASE_USER, $DATABASE_PASS);
